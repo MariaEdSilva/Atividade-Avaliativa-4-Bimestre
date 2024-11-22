@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style01.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#apresentacao">Apresentação</a></li>
+            <li><a href="#hab">Habilidades técnicas</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+ 
+    <center>
+        <br><br><br>
+ 
+    <h1>Você está na Página 1</h1>
+    <p>Clique no botão abaixo para ir para a Página 2.</p>
+    <button id="goToPage2">Ir para Página 2</button>
+    
+    <script>
+        document.getElementById("goToPage2").onclick = function() {
+            window.location.href = "index02.html";
+        };
+    </script>
+    
+    <h1>Meu Portifólio</h1>
+ 
+    <hr>
+ 
+    <h1 id="apresentacao">Sobre mim</h1>
+    <img src="assets/WhatsApp Image 2024-11-22 at 3.16.17 PM.jpeg">
+ 
+    <p>Oi! Me chamo Maria Eduarda Silva, tenho 15 anos, meus pais se chamam Bruna e Rodrigo, nasci dia 12 de Março de 2009, sou católica, e sou estudante do 1° ano de Informática para Internet da Etec Rodrigues de Abreu. 
+        Antes de estudar na Etec passei por 4 outras escolas. Frequentei a escola Domus Educandi durante o ensino infantil, 
+        e depois fui para o Colégio Alfa Sciens, onde estudei até o 4° ano do Ensino Fundamental. Depois disso, estudei durante um ano no
+         Colegio da PM (Cruz Azul), e do 6° ao 9° ano do Ensino Fundamental no Colégio Paraíso.</p>
+ 
+    <hr>
+ 
+    <h1 id="hab">Habilidades técnicas</h1>
+    <div id="coluna1">
+        <h3>Ferramentas e Softwares</h3>
+        <p>Word: Intermediário</p>
+        <p>Power Point:  Intermediário</p>
+        <p>Excel:  Intermediário</p>
+        <p>Canva:  Intermediário</p>
+        <p>Astah Community: Básico</p>
+    </div>
+    <div id="coluna2">
+        <h3>Ferramentas de programação</h3>
+        <p>C:</p>
+        <p>C++:</p>
+        <P>HTML:</P>
+        <p>CSS:</p>
+        <p>JavaScript:</p>
+        <P>Python: </P>
+        <p>Bootstrap: </p>
+    </div>
+ 
+ 
+    <footer id="contato">
+        <a class="a" href="https://myaccount.microsoft.com/?ref=MeControl">Email</a><br>
+        <a class="a" href="https://github.com/MariaEdSilva">GitHub</a>
+    </footer>
+    </center>
+
+</body>
+</html>
